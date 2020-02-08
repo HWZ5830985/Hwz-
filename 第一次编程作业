@@ -156,7 +156,7 @@ if a1==0:
 if a2==0:
     r1=w1
 print(r1)
-for m in range(0,len(s4)):
+for m in range(0,qqq(s4)):
     if s4[m]=='十':
         s4=s4.replace(s4[m],'10')
     if s4[m]=='九':
