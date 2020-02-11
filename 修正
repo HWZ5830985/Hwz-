@@ -1,1 +1,282 @@
+a,b,c,d=map(str,input().split())
+if b=='小杨年龄':
+    e,f,g1,g=map(str,input().split())
+    h,i,j=map(str,input().split())
+    s1,s2,s3,s4,s5,s6,s7,s8,s9,s10=map(str,input().split())
+    e,r=map(str,input().split())
+else:
+    e,f,g=map(str,input().split())
+    h,i,j=map(str,input().split())
+    e,r=map(str,input().split())
+    s1,s2,s3,s4,s5,s6,s7,s8,s9,s10=map(str,input().split())
+n=int(0)
+x=int(0)
+y=int(0)
+z=int(0)
+q=int(0)
+l=int(0)
+m=int(0)
+def qqq(d):
+    if len(d)==1:
+        return 1
+    if len(d)==2:
+        return 3
+    if len(d)==3:
+        return 4
+for p in range(0,qqq(d)):
+    if d[p]=='十':
+        d=d.replace(d[p],'10')
+    if d[p]=='九':
+        d=d.replace(d[p],'9')
+    if d[p]=='八':
+        d=d.replace(d[p],'8')
+    if d[p]=='七':
+        d=d.replace(d[p],'7')
+    if d[p]=='六':
+        d=d.replace(d[p],'6')
+    if d[p]=='五':
+        d=d.replace(d[p],'5')
+    if d[p]=='四':
+        d=d.replace(d[p],'4') 
+    if d[p]=='三':
+        d=d.replace(d[p],'3')
+    if d[p]=='二':
+        d=d.replace(d[p],'2')
+    if d[p]=='一':
+        d=d.replace(d[p],'1')
+    if d[p]=='零':
+        d=d.replace(d[p],'0')
+
+if len(d)==4:
+    x=int(d[0])*10+int(d[1])+int(d[2])+(int(d[3])-1)
+if len(d)==3:
+    x=int(d[0])*10+int(d[1])+int(d[2])
+if len(d)==2:
+    x=int(d[0])*10
+if len(d)==1:
+    x=int(d[0])   
+for s in range(0,qqq(g)):
+    if g[s]=='十':
+        g=g.replace(g[s],'10')
+    if g[s]=='九':
+        g=g.replace(g[s],'9')
+    if g[s]=='八':
+        g=g.replace(g[s],'8')
+    if g[s]=='七':
+        g=g.replace(g[s],'7')
+    if g[s]=='六':
+        g=g.replace(g[s],'6')
+    if g[s]=='五':
+        g=g.replace(g[s],'5')
+    if g[s]=='四':
+        g=g.replace(g[s],'4') 
+    if g[s]=='三':
+        g=g.replace(g[s],'3')
+    if g[s]=='二':
+        g=g.replace(g[s],'2')
+    if g[s]=='一':
+        g=g.replace(g[s],'1')
+    if g[s]=='零':
+        g=g.replace(g[s],'0')
+if len(g)==4:
+    y=int(g[0])*10+int(g[1])+int(g[2])+(int(g[3])-1)
+if len(g)==3:
+    y=int(g[0])*10+int(g[1])+int(g[2])
+if len(g)==2:
+    y=int(g[0])*10
+if len(g)==1:
+    y=int(g[0])
+for r in range(0,qqq(j)):
+    if j[r]=='十':
+        j=j.replace(j[r],'10')
+    if j[r]=='九':
+        j=j.replace(j[r],'9')
+    if j[r]=='八':
+        j=j.replace(j[r],'8')
+    if d[p]=='七':
+        j=j.replace(j[r],'7')
+    if j[r]=='六':
+        j=j.replace(j[r],'6')
+    if j[r]=='五':
+        j=j.replace(j[r],'5')
+    if j[r]=='四':
+        j=j.replace(j[r],'4') 
+    if j[r]=='三':
+        j=j.replace(j[r],'3')
+    if j[r]=='二':
+        j=j.replace(j[r],'2')
+    if j[r]=='一':
+        j=j.replace(j[r],'1')
+    if j[r]=='零':
+        j=j.replace(j[r],'0')
+if len(j)==4:
+    z=int(j[0])*10+int(j[1])+int(j[2])+(int(j[3])-1)
+if len(j)==3:
+    z=int(j[0])*10+int(j[1])+int(j[2])
+if len(j)==2:
+    z=int(j[0])*10
+if len(j)==1:
+    z=int(j[0])
+for m in range(0,qqq(s4)):
+    if s4[m]=='十':
+        s4=s4.replace(s4[m],'10')
+    if s4[m]=='九':
+        s4=s4.replace(s4[m],'9')
+    if s4[m]=='八':
+        s4=s4.replace(s4[m],'8')
+    if s4[m]=='七':
+         s4=s4.replace(s4[m],'7')
+    if s4[m]=='六':
+        s4=s4.replace(s4[m],'6')
+    if s4[m]=='五':
+        s4=s4.replace(s4[m],'5')
+    if s4[m]=='四':
+        s4=s4.replace(s4[m],'4') 
+    if s4[m]=='三':
+        s4=s4.replace(s4[m],'3')
+    if s4[m]=='二':
+        s4=s4.replace(s4[m],'2')
+    if s4[m]=='一':
+        s4=s4.replace(s4[m],'1')
+    if s4[m]=='零':
+        s4=s4.replace(s4[m],'0')
+if len(s4)==4:
+    n=int(s4[0])*10+int(s4[1])+int(s4[2])+(int(s4[3])-1)
+if len(s4)==3:
+    n=int(s4[0])*10+int(s4[1])+int(s4[2])
+if len(s4)==2:
+    n=int(s4[0])*10
+if len(s4)==1:
+    n=int(s4[0])
+
+if b=='小杨年龄':
+    if i=='增加':
+        x=x+z
+        m=1
+    if i=='减少':
+        x=x-z
+        m=1
+    if i=='乘':
+        x=x*z
+        m=1
+    if i=='除':
+        x=x/z
+        m=1
+    if m!=1:
+        print("您进行的运算算法程序不支持，未进行计算结果是错误的（支持的算法有，增加、减少、乘、除)")
+    if x>n:
+        y=y+1
+        q=y
+    a1=q//1%10
+    a2=q//10%10
+    a3=q//100%10
+    def abc(q):
+        if q==10:
+            return '十' 
+        if q==9:
+            return '九'
+        if q==8:
+            return '八'
+        if q==7:
+            return '七'
+        if q==6:
+            return '六'
+        if q==5:
+            return '五'
+        if q==4:
+            return '四'
+        if q==3:
+            return '三'
+        if q==2:
+            return '二'
+        if q==1:
+            return '一'
+        if q==0:
+            return '零'
+    w1=abc(a1)
+    w2=abc(a2)
+    if a2<2 and a2!=0:
+        r1=w2+w3
+    if a2>2 and a1!=0:
+        r1=w2+'十'+w1
+    if a1==0:
+         r1=w2+'十'
+    if a2==0:
+        r1=w1
+    print(r1)
+else:
+    if f=='增加':
+        x=x+y
+        l=1
+    if f=='减少':
+        x=x-y
+        l=1
+    if f=='乘':
+        x=x*y
+        l=1
+    if f=='除':
+        x=x/y
+        l=1
+    if l!=1:
+        print("您进行的第一次运算算法程序不支持，未进行计算结果是错误的（支持的算法有，增加、减少、乘、除)")
+    if i=='增加':
+        x=x+z
+        m=1
+    if i=='减少':
+        x=x-z
+        m=1
+    if i=='乘':
+        x=x*z
+        m=1
+    if i=='除':
+        x=x/z
+        m=1
+    if m!=1:
+        print("您进行的第二次运算算法程序不支持，未进行计算结果是错误的（支持的算法有，增加、减少、乘、除)")
+    q=x
+    a1=q//1%10
+    a2=q//10%10
+    a3=q//100%10
+    def abc(q):
+        if q==10:
+            return '十' 
+        if q==9:
+            return '九'
+        if q==8:
+            return '八'
+        if q==7:
+            return '七'
+        if q==6:
+            return '六'
+        if q==5:
+            return '五'
+        if q==4:
+            return '四'
+        if q==3:
+            return '三'
+        if q==2:
+            return '二'
+        if q==1:
+            return '一'
+        if q==0:
+            return '零'
+    w1=abc(a1)
+    w2=abc(a2)
+    if a2<2 and a2!=0:
+        r1=w2+w3
+    if a2>2 and a1!=0:
+        r1=w2+'十'+w1
+    if a1==0:
+        r1=w2+'十'
+    if a2==0:
+        r1=w1
+    print(r1)
+
+    if x>n:
+        print(s7[1:len(s7)-1])
+    else:
+        print(s10[1:len(s7)-1])
+
+
+
 
